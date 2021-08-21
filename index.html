@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Users_posts_comments</title>
+</head>
+
+<body>
+
+    <div class="container-site">
+        <ul class="site-list d-flex justify-content-between mt-4 justify-content-center">
+            <li class="site-list_item d-flex flex-column align-items-center">
+                <h1 class="heading1 text-primary font-weight-bold m-4">Users</h1>
+                <ul class="user_list"></ul>
+            </li>
+            <li class="site-list_item">
+                <h1 class="heading2 text-success font-weight-bold m-4">Posts</h1>
+                <ul class="posts_list d-flex flex-column"></ul>
+            </li>
+            <li class="site-list_item">
+                <h1 class="heading3 text-danger font-weight-bold m-4">Comments</h1>
+                <ul class="comments_list d-flex flex-column"></ul>
+            </li>
+        </ul>
+    </div>
+    <template class="user_template">
+        <li class="users-item">
+            <p class="id h4 font-weight-bold text-danger">1</p>
+            <h3 class="name text-danger">Leanne Graham</h3>
+            <h4 class="user_name">Bret</h4>
+            <p class="email text-warning font-weight-bold">Sincere@april.biz</p>
+            <p class="address">uy</p>
+            <a class="link" target="__blank" href="https://www.google.com/maps/place/-37.3159,81.1496">Location</a>
+            <a class="phone" href="tell">999999999</a>
+            <p class="website">jdjdskska.org</p>
+            <p class="company_name text-success font-weight-bold">google</p>
+            <p class="company_catchPhrase text-success font-weight-bold">Multi-layered client-server neural-net</p>
+            <p class="company_bs text-success font-weight-bold">harness real-time e-markets</p>
+        </li>
+    </template>
+    <template class="posts_template">
+        <li class="posts_item">
+            <p class="userId h4 font-weight-bold text-danger">1</p>
+        <p class="Id h3 font-weight-bold text-success">1</p>
+        <p class="title text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, commodi?</p>
+        <p class="body text-center font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quis.</p>
+        </li>
+    </template>
+    <template class="comments_template">
+     <li class="comments_item">
+        <p class="postId h4 font-weight-bold text-success">1</p>
+        <p class="Ids h3 font-weight-bold text-danger">2</p>
+        <p class="name_comments text-center">Lorem, ipsum.</p>
+        <p class="email_comments text-center ">Lorem ipsum dolor sit amet.</p>
+        <p class="body_comments text-center font-weight-bold">Lorem ipsum dolor sit amet.</p>
+     </li>
+    </template>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+body {
+    font-family: monospace;
+    background-color: #333333;
+    /* color: white; */
+}
+
+.container-site {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.site-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.user_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.users-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px 4px blue;
+    align-self: stretch;
+    padding: 30px 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.users-item:hover {
+    box-shadow: 0 0 10px 8px blue;
+}
+
+.posts_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    max-width: 400px;
+}
+
+.posts_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 15px 4px green;
+    align-self: stretch;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.posts_item:hover {
+    box-shadow: 0 0 10px 8px green;
+}
+
+.site-list_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comments_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    max-width: 350px;
+}
+
+.comments_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 15px 4px darkred;
+    align-self: stretch;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.comments_item:hover {
+    box-shadow: 0 0 10px 8px darkred;
+}
+
+.site-list_item {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 4px rgb(0, 0, 0);
+}
+
+.heading1 {
+    box-shadow: 0 0 10px 4px blue;
+    padding: 0 40px;
+}
+
+.heading1:hover {
+    box-shadow: 0 0 15px 10px blue;
+}
+
+.heading2 {
+    box-shadow: 0 0 15px 4px green;
+    padding: 0 40px;
+}
+
+.heading2:hover {
+    box-shadow: 0 0 15px 10px green;
+}
+
+.heading3 {
+    box-shadow: 0 0 15px 4px darkred;
+    padding: 0 40px;
+}
+
+.heading3:hover {
+    box-shadow: 0 0 15px 10px darkred;
+}
